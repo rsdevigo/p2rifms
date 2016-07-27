@@ -36,4 +36,6 @@ CKEDITOR.editorConfig = function( config ) {
 	// Prevent blank paragraphs
 	config.fillEmptyBlocks = false;
 
+	config.extraPlugins = 'eqneditor';
+
 };
